@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+body{
+    background: green;
+    cursor: pointer;
+
+}
+
+.container{
+    margin: 50px;
+    width: 87%;
+    /*background: white;*/
+    /*border-radius: 20px;*/
+}
+.container-title{
+    background: white;
+    border-radius: 20px;
+    width: 60%;
+}
+
+.search-wrapper input{
+    width: 600px;
+    height: 40px;
+    margin: 20px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.search-wrapper input::placeholder{
+    padding: 0 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.search-wrapper button{
+    cursor: pointer;
+    padding: 11px 70px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    background: blue;
+    color: white;
+    border: none;
+    margin: 0 0 10px 30px;
+}
+
+
+.search-result{
+    cursor: pointer;
+    display: none;
+    padding: 30px 30px;
+}
+.search-result img{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+
+}
+.search-result h2{
+    padding: 5px 0;
+}
+
+
+
+
+
+
+
